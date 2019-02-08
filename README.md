@@ -1,4 +1,4 @@
-# GitHub Action - Publish Gem to Rubygems
+# GitHub Action - Publish Gem to Rubygems 
 
 This is a GitHub Action written to streamline the Ruby gem publication process.  The action sets the Gem Credentials from `GITHUB_TOKEN` and `RUBYGEMS_API_KEY`secrets, and then runs `rake release` in your project root.  You can override this command by setting `RELEASE_COMMAND` environment variable to the script that creates and publishes (this is usually only the case when a repository hosts multiple gems together).
 
